@@ -1,4 +1,10 @@
-package ifCondition;
+package condition;
+
+/*
+* @ Date : 2015.07.9
+* @ Author : me
+* @ Story : if-else 예제 (합격여부)
+* */
 
 import java.util.Scanner;
 
