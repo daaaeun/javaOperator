@@ -4,6 +4,7 @@ import condition.ArithmeticCalc;
 import condition.CalcAvg;
 import condition.ManOrWoman;
 import condition.SwitchAvg;
+import loop.EvenOddSum;
 
 
 /*
@@ -26,8 +27,12 @@ public class OperatorController {
 		SwitchAvg avg2 = new SwitchAvg();
 	//	avg2.calc();
 		ManOrWoman manOrWoman = new ManOrWoman();
-		manOrWoman.ssn(); // ssn() 원 클래스의 메소드 이름이다.
+	//	manOrWoman.ssn(); // ssn() 원 클래스의 메소드 이름이다.
 
+		//2015.07.13 짝수/홀수 합 계산기
+		
+		EvenOddSum evenOddSum = new EvenOddSum();
+		evenOddSum.calc();
 	}
 
 }

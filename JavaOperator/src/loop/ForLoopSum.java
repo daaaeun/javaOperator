@@ -11,6 +11,8 @@ public class ForLoopSum {
 		// 현재 지변을 초기화 하지 않는 이유는
 		// for-loop 내부에서 하고있기 때문
 		int sum=0;
+		//누적되는 결과값을 출력하는 변수는
+		// for-loop 바깥쪽에 선언 및 초기화한다.
 		for (int i = 1; i <= 10; i++) {
 			sum += i; //sum = sum+i;
 					 // i값이 회전하면서 증가하는 값을 누적시키는 연산
